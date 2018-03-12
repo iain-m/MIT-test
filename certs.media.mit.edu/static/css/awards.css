@@ -1,0 +1,52 @@
+/* styles for award.html pages */
+
+body{
+	padding: 35px;
+}
+
+.name{
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.subtitle{
+	margin: 3px 0px 3px 0px;
+}
+
+.description{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	line-height: 1.4;
+}
+
+#signature-img{
+	max-height: 40px;
+	margin-bottom: 70px;
+}
+
+.signature-info{
+	line-height: 1.2;
+}
+
+#verify-button{
+	margin-right: 5px;
+}
+
+#progress-msg{
+	/*display: inline;*/
+	font-size: 12px;
+	text-align: left;
+	display: none;
+}
+
+#verified, #not-verified{
+	display: none;
+}
+
+#verified-icon, #not-verified-icon{
+	max-height: 25px;
+}
+
+.output-txt{
+	line-height: 1.5;
+}
